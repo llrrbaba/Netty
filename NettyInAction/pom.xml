@@ -6,7 +6,7 @@
     <groupId>cn.rocker</groupId>
     <artifactId>nettyinaction</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>nettyinaction</name>
     <description>Demo project for Spring Boot</description>
