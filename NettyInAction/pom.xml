@@ -27,8 +27,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <echoserver.hostname>localhost</echoserver.hostname>
-        <echoserver.port>8888</echoserver.port>
+        <echo-server.hostname>localhost</echo-server.hostname>
+        <echo-server.port>8888</echo-server.port>
     </properties>
 
     <dependencies>
