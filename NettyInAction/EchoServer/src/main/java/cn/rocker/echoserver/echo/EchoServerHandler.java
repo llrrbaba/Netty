@@ -1,4 +1,4 @@
-package cn.rocker.nettyinaction.echo;
+package cn.rocker.echoserver.echo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
