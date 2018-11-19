@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  */
 public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
 
-    Logger logger = LoggerFactory.getLogger(EchoServer.class);
+    Logger logger = LoggerFactory.getLogger(EchoClientHandler.class);
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
