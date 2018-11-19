@@ -67,7 +67,7 @@
                 <configuration>
                     <mainClass>cn.rocker.echoserver.echo.EchoServer</mainClass>
                     <arguments>
-                        <argument>${echo-server.port}</argument>
+                        <argument>8888</argument>
                     </arguments>
                 </configuration>
             </plugin>

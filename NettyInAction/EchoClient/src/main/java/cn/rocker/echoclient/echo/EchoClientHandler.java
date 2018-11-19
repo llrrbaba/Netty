@@ -2,6 +2,7 @@ package cn.rocker.echoclient.echo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
+import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.util.CharsetUtil;
@@ -13,6 +14,7 @@ import org.slf4j.LoggerFactory;
  * @date 2018/11/19 10:30
  * @since V1.0
  */
+@ChannelHandler.Sharable
 public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
 
     Logger logger = LoggerFactory.getLogger(EchoClientHandler.class);
