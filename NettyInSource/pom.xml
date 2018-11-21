@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.rocker</groupId>
-    <artifactId>nettydemo</artifactId>
+    <artifactId>nettyinsource</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>nettydemo</name>
+    <name>nettyinsource</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -33,12 +33,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <!--<version>5.0.0.Alpha2</version>-->
-            <version>4.0.35.Final</version>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

@@ -1,12 +1,12 @@
-package cn.rocker.nettydemo;
+package cn.rocker.nettyinsource;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NettydemoApplication {
+public class NettyinsourceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NettydemoApplication.class, args);
+        SpringApplication.run(NettyinsourceApplication.class, args);
     }
 }
